@@ -1,0 +1,1 @@
+Code in this folder is mostly direct adapted from [the Neural Process Family repository](https://github.com/YannDubs/Neural-Process-Family).
