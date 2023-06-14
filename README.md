@@ -69,7 +69,7 @@ These runs use different classifiers and datasets:
 - `DATASET` can be `cifar10`, `svhn`, `fashion_mnist`, or `mnist`.
 - `CLASSIFIER` is set to `resnet`.
 
-Here `ACQ_STRATEGY` determines the active learning method, and can be one of the following: `uc_entropy` (Entropy), `uc_margin` (Margin), `uc_lc` (LstConf), `hal_uni` (HALUni), `hal_gauss` (HALGau), `cbal` (CBAL),  `gcn_random` (Random)`, `gcn_unc` (UncGCN), `gcn_core` (CoreGCN), `gcn_kcg` (KCGrdy), `gcn_lloss` (LLoss), `gcn_vaal` (VAAL).
+Here `ACQ_STRATEGY` determines the active learning method, and can be one of the following: `uc_entropy` (Entropy), `uc_margin` (Margin), `uc_lc` (LstConf), `hal_uni` (HALUni), `hal_gauss` (HALGau), `cbal` (CBAL),  `gcn_random` (Random), `gcn_unc` (UncGCN), `gcn_core` (CoreGCN), `gcn_kcg` (KCGrdy), `gcn_lloss` (LLoss), `gcn_vaal` (VAAL).
 
 Balanced classes.
 ```
