@@ -45,8 +45,6 @@ class NPStrategy(BaseStrategy):
         self.reward_split = args.reward_split
         self.do_val = args.np_do_val
         self.use_leave_one_out_rewards = args.use_leave_one_out_rewards
-        self.visualise_moons_heatmap = args.visualise_moons_heatmap
-        self.visualise_oracle_heatmap = args.visualise_oracle_heatmap
         self.logger = logging.getLogger(self.name)
 
         self.data_module = data_module
